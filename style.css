@@ -1,0 +1,60 @@
+
+i{
+    color: #0000ff;
+}
+h1,h2{
+    border: 2px solid green;
+    display: inline;
+    background-color: aquamarine;
+}
+a{
+    display: block;
+}
+.width{
+    width:500px;
+    margin: auto;
+    border: 2px solid red;
+}
+.max_width{
+    position: relative;
+    left: 100px;
+    width:500px;
+    margin: auto;
+    border: 2px solid green;
+
+}
+.bb{
+    position: relative;
+    left: 100px;
+    height:200px ;
+    width:400px;
+    background-color:  green;
+
+}
+.cc{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height:100px ;
+    width:100px;
+    background-color: red;
+    border-radius: 50%;
+
+
+}
+.ss{
+    position: sticky;
+    top:0;
+    border: 2px solid brown;
+    background-color: blueviolet;
+}
+.dd{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid black;
+    background-color: bisque;
+}
